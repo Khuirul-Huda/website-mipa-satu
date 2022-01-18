@@ -1,0 +1,20 @@
+.herobg {
+    min-height: 100%;
+    position: relative;
+    overflow: hidden;
+  
+    &::before {
+      background-image: url('/img/foto_kelas_final.webp');
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+      content: '';
+      height: 100%;
+      left: 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      will-change: transform;
+      z-index: -1;
+    }
+  }
