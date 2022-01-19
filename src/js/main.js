@@ -9,3 +9,7 @@ var typed = new Typed('.herotext',{
     loop: true,
     shuffle: true
   });
+
+  document.getElementById('sosmed-ig').onclick = function () {
+      window.open("https://instagram.com/mipan.smanega", "_blank")
+  }
