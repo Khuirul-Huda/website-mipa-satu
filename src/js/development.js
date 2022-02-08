@@ -1,1 +1,0 @@
-alert("This website is under development mode and not stable (yet), some issues, glitch, and bug may occur anytime");
