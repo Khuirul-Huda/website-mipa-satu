@@ -502,6 +502,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
+.row-span-2 {
+  grid-row: span 2 / span 2;
+}
+
 .m-3 {
   margin: 0.75rem;
 }
@@ -524,16 +532,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.5rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
 .flex {
   display: flex;
 }
 
 .h-screen {
   height: 100vh;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -548,17 +564,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: center;
 }
 
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
 .scroll-smooth {
   scroll-behavior: smooth;
 }
 
-.rounded-full {
-  border-radius: 9999px;
+.rounded {
+  border-radius: 0.25rem;
 }
 
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .bg-white {
@@ -571,16 +592,50 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(34 197 94 / var(--tw-bg-opacity));
 }
 
+.bg-pink-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
+}
+
+.bg-gradient-to-bl {
+  background-image: linear-gradient(to bottom left, var(--tw-gradient-stops));
+}
+
+.from-purple-800 {
+  --tw-gradient-from: #6b21a8;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(107 33 168 / 0));
+}
+
+.via-red-600 {
+  --tw-gradient-stops: var(--tw-gradient-from), #dc2626, var(--tw-gradient-to, rgb(220 38 38 / 0));
+}
+
+.to-yellow-500 {
+  --tw-gradient-to: #eab308;
+}
+
 .bg-cover {
   background-size: cover;
 }
 
-.bg-fixed {
-  background-attachment: fixed;
-}
-
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.p-20 {
+  padding: 5rem;
+}
+
+.p-7 {
+  padding: 1.75rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .px-6 {
@@ -593,22 +648,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 5rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .text-center {
   text-align: center;
-}
-
-.font-sans {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .text-7xl {
@@ -631,16 +672,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.tracking-wider {
-  letter-spacing: 0.05em;
 }
 
 .text-white {
@@ -653,8 +691,36 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
-.shadow-lg {
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+.text-pink-600 {
+  --tw-text-opacity: 1;
+  color: rgb(219 39 119 / var(--tw-text-opacity));
+}
+
+.hover\:rounded-lg:hover {
+  border-radius: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+  .lg\:grid {
+    display: grid;
+  }
+
+  .lg\:grid-rows-3 {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:gap-3 {
+    gap: 0.75rem;
+  }
+
+  .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
 }
