@@ -7,7 +7,8 @@ var typed = new Typed('.herotext',{
     backSpeed: 80,
     typeSpeed: 80,
     loop: true,
-    shuffle: true
+    shuffle: true,
+    showCursor: false
   });
 
   document.getElementById('sosmed-ig').onclick = function () {
