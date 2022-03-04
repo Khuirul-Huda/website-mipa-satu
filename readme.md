@@ -5,6 +5,7 @@
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](#)
 [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](#)
 [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](#)
+[![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](#)
 
 [![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](#)
 
