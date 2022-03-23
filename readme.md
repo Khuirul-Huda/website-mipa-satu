@@ -1,3 +1,16 @@
+
+[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://gitHub.com/Khuirul-Huda/)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://gitHub.com/Khuirul-Huda/)
+
+[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](#)
+[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](#)
+[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](#)
+[![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](#)
+
+[![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](#)
+
+[![PageViews](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKhuirul-Huda%2Fwebsite-mipa-satu&count_bg=%2301FF19&title_bg=%235A535A&icon=&icon_color=%23E7E7E7&title=views&edge_flat=true)](https://hits.seeyoufarm.com)
+[![HitCount](https://hits.dwyl.com/Khuirul-Huda/website-mipa-satu.svg?show=unique)](http://hits.dwyl.com/Khuirul-Huda/website-mipa-satu)
 ### Introduction
 A small website for my class (and for you all btw) :)
 
