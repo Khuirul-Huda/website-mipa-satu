@@ -1,5 +1,5 @@
 jarallax(document.querySelectorAll('.jarallax'), {
-    speed: 0.2
+    speed: 0.64111111
 });
 
 var typed = new Typed('.herotext',{
