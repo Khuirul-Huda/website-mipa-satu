@@ -4,8 +4,8 @@ jarallax(document.querySelectorAll('.jarallax'), {
 
 var typed = new Typed('.herotext',{
     strings:["We are good students", "We are great students"],
-    backSpeed: 80,
-    typeSpeed: 80,
+    backSpeed: 40,
+    typeSpeed: 70,
     loop: true,
     shuffle: true,
     showCursor: false
