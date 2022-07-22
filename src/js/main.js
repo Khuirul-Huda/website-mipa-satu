@@ -14,3 +14,11 @@ var typed = new Typed('.herotext',{
   document.getElementById('sosmed-ig').onclick = function () {
       window.open("https://instagram.com/mipan.smanega", "_blank")
   }
+
+  //development
+  const kocak = document.getElementById('jadwal').innerHTML
+  for (let h = 0; h < 7; h++) {
+      
+  document.getElementById('jadwal').innerHTML += kocak;
+
+  }
