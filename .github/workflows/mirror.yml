@@ -1,0 +1,19 @@
+name: Mirror
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    env:
+      MIRROR_ONE: ${{ secrets.MIRROR_ONE }}
+    steps:
+    - name: mirror
+      run: |
+       git clone https://github.com/Khuirul-Huda/website-mipa-satu.git
+       cd website-mipa-satu
+       git push $MIRROR_ONE --all 2> .l
+       cd ..
+       rm -rf website-mipa-satu
