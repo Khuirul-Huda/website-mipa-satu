@@ -1,3 +1,16 @@
+/**
+ * schedule.js
+ * 
+ *  ------- Website Kelas ------
+ * 
+ * Name: website-mipa-satu
+ * Author: Khuirul-Huda (@khuirul_huda)
+ * Source Code: https://github.com/Khuirul-Huda/website-mipa-satu
+ * 
+ * ------------------------------
+**/
+
+
 const schedule = {
   "Senin": [
     "-----",
