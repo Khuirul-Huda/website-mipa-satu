@@ -3,7 +3,7 @@ jarallax(document.querySelectorAll('.jarallax'), {
 });
 
 var typed = new Typed('.herotext',{
-    strings:["We are good students", "We are great students"],
+    strings:["Comment allez vous?", "Selamat menghadapi UTBK 2023"],
     backSpeed: 40,
     typeSpeed: 70,
     loop: true,
