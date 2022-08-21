@@ -13,16 +13,16 @@
 
 const schedule = {
   "Senin": [
-    "-----",
-    "Bahasa Prancis",
-    "Bahasa Prancis",
-    "Agama",
-    "Agama",
-    "Agama",
+    "😃😃😃",
+    "PJOK",
+    "PJOK",
+    "PJOK",
+    "Bahasa Indonesia",
+    "Bahasa Indonesia",
     "Sejarah",
     "Sejarah",
-    "Seni Budaya",
-    "Seni Budaya"
+    "Bahasa Prancis",
+    "Bahasa Prancis"
     ],
 "Selasa": [
   "Kimia",
@@ -43,32 +43,32 @@ const schedule = {
   "Bahasa Indonesia",
   "Ppkn",
   "Ppkn",
-  "Bahasa Prancis",
-  "Bahasa Prancis",
   "Kimia",
-  "Kimia"
+  "Kimia",
+  "Seni Budaya",
+  "Seni Budaya"
 ],
 "Kamis": [
-  "Bahasa Jawa",
-  "Bahasa Jawa",
-  "Fisika",
-  "Fisika",
-  "PKWU",
-  "PKWU",
+  "Bahasa Inggris",
+  "Bahasa Inggris",
+  "Biologi",
+  "Biologi",
+  "Bahasa Prancis",
+  "Bahasa Prancis",
+  "Agama",
   "BK",
-  "PJOK",
-  "PJOK",
-  "PJOK"
+  "PKWU",
+  "PKWU"
 ],
 "Jumat": [
   "Matematika (P)",
   "Matematika (P)",
-  "Biologi",
-  "Biologi",
-  "Bahasa Indonesia",
-  "Bahasa Indonesia",
-  "Bahasa Inggris",
-  "Bahasa Inggris"
+  "Fisika",
+  "Fisika",
+  "Agama",
+  "Agama",
+  "Bahasa Jawa",
+  "Bahasa Jawa"
   
   ]
 
