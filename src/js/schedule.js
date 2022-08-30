@@ -27,10 +27,10 @@ const schedule = {
 "Selasa": [
   "Kimia",
   "Kimia",
-  "Matematika (W)",
-  "Matematika (W)",
   "Fisika",
   "Fisika",
+  "Matematika (W)",
+  "Matematika (W)",
   "Biologi", 
   "Biologi",
   "Matematika (P)",
