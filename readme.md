@@ -14,6 +14,9 @@
 ### Introduction
 A small website for my class (and for you all btw) :)
 
+### Notice
+All pictures, images, related to 'XII MIPA 1' are licensed CC-BY-SA-ND
+
 ### About
 This website contains one or more third party library, framework, font, and other resources
 * [Tailwind](https://github.com/tailwindlabs/tailwindcss)
